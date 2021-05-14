@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+main {
+    flex: 1 0 auto !important;
+}
+
+.searchinput{
+    margin-left: 12vmin !important;
+    margin-top: 5vmin;
+}
+
+.searchinput label{
+    font-size: 2.5vmin;
+}
+
+.searchbar input{
+    width: 60vmin;
+    height: 5vmin;
+    margin-left: 3vmin;
+    line-height: 5vmin;
+    font-size: 2.5vmin;
+    outline: none;
+    border: 0.05vmin solid rgb(201, 201, 201);
+    border-radius: 5vmin;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
+}
+
+.grid-container{
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+}
+
+.card {
+    height: 48vmin !important;
+    margin: 2vmin !important;
+    padding-top: 3vmin;
+}
+
+.card img {
+    height: 25vmin;
+}
+
+.card-content {
+    padding: 2vmin !important;
+}
+
+.card-content span {
+    margin-bottom: 0 !important;
+}
+
+.card-action {
+    padding: 2vmin !important;
+}
+
+.card-action a {
+    margin: 2vmin !important;
+    color: #b66700 !important;
+}

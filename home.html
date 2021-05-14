@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
 
@@ -24,7 +25,7 @@
       <div class="nav-wrapper">
         <a href="#" class="brand-logo left">गुमशुदा</a>
         <ul id="nav-mobile" class="right">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="home.html">Home</a></li>
           <li><a href="index.html">Logout</a></li>
         </ul>
       </div>
@@ -32,37 +33,224 @@
   </div>
 
   <main>
-    <div class="intro-wrapper">
-      <div class="intro-box row">
-        <div class="para col s12 m12 l8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officia cum
-          veritatis minus
-          vitae? Quod consequatur ea provident a autem. Ratione, dolore. Tempora rem debitis aut, nostrum labore
-          officiis
-          fugit?</div>
-        <div class="col s12 row optbuttons">
-          <a class="waves-effect waves-light btn col s4">Search for missing person</a>
-          <a class="waves-effect waves-light btn col s4">Register missing person</a>
+    <div class="searchbar">
+      <div class="row">
+        <div class="col s8 l6 searchinput">
+            <label>Search:</label>
+            <input id="inline" type="text" class="browser-default" placeholder="Search a name">
         </div>
       </div>
     </div>
-    <div class="row stepguide">
-      <div class="col l4 m12 s12 center">
-        <img src="Images/missingperson.svg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo tempore perferendis asperiores
-          quis
-          modi adipisci eius ipsum temporibus? Sunt.</p>
+    <div class="grid-container row">
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col l4 m12 s12 center">
-        <img src="Images/searchperson.svg">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime corrupti ex iste impedit ab
-          sint
-          temporibus praesentium nostrum ut!</p>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col l4 m12 s12 center">
-        <img src="Images/missingposter.svg">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, corporis modi nemo consectetur eos
-          nostrum
-          pariatur architecto voluptates quas voluptatibus.</p>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l3">
+        <div class="card sticky-action">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/missingperson.svg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">more_vert</i></span>
+
+            <p>Vasai, Maharashtra, India</p>
+          </div>
+
+          <div class="card-action center">
+            <a href="#">More Details</a>
+            <a href="#">Spotted</a>
+          </div>
+
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Jane Doe<i
+                class="material-icons right">close</i></i></span>
+            <p>
+              Location: Vasai <br />
+              Age: 30 <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur magnam id debitis aspernatur
+              autem eveniet aliquid, sunt ratione dolores, velit accusantium doloribus deserunt ad sequi et similique
+              architecto fugiat?
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
